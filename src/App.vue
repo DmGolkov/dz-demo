@@ -1,3 +1,4 @@
+<!-- выполнил -->
 <template>
     <div> Сегодня: {{ nowDate }}</div>
 </template>
