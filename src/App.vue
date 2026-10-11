@@ -1,17 +1,16 @@
 <template>
-    <div> Сегодня: {{ nowDate }}</div>
+    <main class="main">
+        <Button>Начать игру</Button>
+    </main>
 </template>
 
 <script setup>
-    let countryRegion = 'ru-RU';
-    const options = {
-        weekday: "long",
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-    };
-    const nowDate = new Date().toLocaleDateString(countryRegion, options);
+import Button from './components/Button.vue';
+
 </script>
 
 <style scoped>
+    .main {
+        background: var(--color-primary);
+    }
 </style>

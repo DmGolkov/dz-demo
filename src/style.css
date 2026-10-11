@@ -1,6 +1,19 @@
 :root {
+  --color-primary: rgba(240, 244, 248, 1);
+  --color-font: rgba(255, 255, 255, 1);
+  --color-button: rgba(0, 139, 254, 1);
+  --font: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--color-font);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  background-color: var(--color-primary);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+} 
