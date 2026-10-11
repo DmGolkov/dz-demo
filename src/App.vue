@@ -11,6 +11,6 @@ import Button from './components/Button.vue';
 
 <style scoped>
     .main {
-        background: var(--color-bg-main);
+        background: var(--color-primary);
     }
 </style>
